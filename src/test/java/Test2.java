@@ -10,5 +10,6 @@ public class Test2 {
         System.out.println("Oksjoa");
 
         System.out.println("dfdsf");
+        System.out.println("fdsfdsfds");
     }
 }
