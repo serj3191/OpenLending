@@ -8,5 +8,7 @@ public class Test2 {
 
         System.out.println("Lyon");
         System.out.println("Oksjoa");
+
+        System.out.println("dfdsf");
     }
 }
