@@ -5,5 +5,8 @@ public class Test2 {
 
         System.out.println("Line 2");
         System.out.println("Line 3");
+
+        System.out.println("Lyon");
+        System.out.println("Oksjoa");
     }
 }
