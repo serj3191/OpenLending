@@ -9,8 +9,8 @@ public class Test2 {
         System.out.println("Lyon");
         System.out.println("Oksjoa");
 
-        System.out.println("master change");
-        System.out.println("master");
-        System.out.println("sdasd");
+        System.out.println("real madrid");
+        System.out.println("milan");
+        System.out.println("manchester united");
     }
 }
