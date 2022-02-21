@@ -16,5 +16,11 @@ public class Test {
 
         System.out.println("dfdsfdsfd");
         System.out.println("54");
+        System.out.println("Fgfdgfdg");
+        System.out.println("Dffgfd");
     }
 }
+
+// git status
+// git add -A
+// git commit -m"message"(1st time); git commit --amend (second time) "shift+: wq+ENTER"
