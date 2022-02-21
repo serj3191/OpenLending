@@ -12,5 +12,8 @@ public class Test {
 
         System.out.println("new line");
         System.out.println("code1");
+
+        System.out.println("dfdsfdsfd");
+        System.out.println("fgfg");
     }
 }
