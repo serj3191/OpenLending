@@ -52,7 +52,6 @@ public class Test {
         }
         System.out.println(res);
 
-        Faker faker = new Faker();
 
 
 //String message = faker.regexify("(HI|HELLO|FUCK)");
@@ -62,7 +61,18 @@ public class Test {
 //        String name = faker.regexify("(+1-)?\\d{3}-\\d{3}-\\d{4}");
 //        System.out.println(name);
 //        System.out.println(name.matches("(Andriy|Serhii)"));
+        System.out.println("Line 1");
+        System.out.println("Line22");
+        System.out.println("This is incognito guy");
+        System.out.println("Incognito keeps going");
+        System.out.println("More incognitos");
+        System.out.println("my owm code");
+        System.out.println("fdgdfgd");
+        System.out.println("new line");
+        System.out.println("code1");
 
+        System.out.println("dfdsfdsfd");
+        System.out.println("54");
 //        String res = "";
 //        String str = "501GCCCA098911HH52";
 //        List<String> ar1, ar2;
@@ -99,7 +109,18 @@ public class Test {
 ////            ar1 = Arrays.asList(str.split("[A-Z]+"));
 ////            ar2 = Arrays.asList(str.split("[0-9]+"));
 ////        }
+//        System.out.println("Line 1");
+//        System.out.println("Line22");
+//        System.out.println("This is incognito guy");
+//        System.out.println("Incognito keeps going");
+//        System.out.println("More incognitos");
+//        System.out.println("my owm code");
+//        System.out.println("fdgdfgd");
+//        System.out.println("new line");
+//        System.out.println("code1");
 //
+//        System.out.println("dfdsfdsfd");
+//        System.out.println("54");
 //        String str = "501GCCCA098911HH52";
 //        System.out.println(str.matches("\\w+"));
 //        String res = "";
@@ -128,7 +149,18 @@ public class Test {
 ////            ar1 = Arrays.asList(str.split("[A-Z]+"));
 ////            ar2 = Arrays.asList(str.split("[0-9]+"));
 ////        }
+//        System.out.println("Line 1");
+//        System.out.println("Line22");
+//        System.out.println("This is incognito guy");
+//        System.out.println("Incognito keeps going");
+//        System.out.println("More incognitos");
+//        System.out.println("my owm code");
+//        System.out.println("fdgdfgd");
+//        System.out.println("new line");
+//        System.out.println("code1");
 //
+//        System.out.println("dfdsfdsfd");
+//        System.out.println("54");
 //        String str = "501GCCCA098911HH52";
 //        System.out.println(str.matches("\\w+"));
 //        String res = "";
