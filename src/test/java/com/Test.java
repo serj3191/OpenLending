@@ -1,5 +1,12 @@
 package com;
 
+import com.github.javafaker.Faker;
+
+import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -16,5 +23,120 @@ public class Test {
 
         System.out.println("dfdsfdsfd");
         System.out.println("54");
+        Faker faker = new Faker();
+
+
+//String message = faker.regexify("(HI|HELLO|FUCK)");
+//        System.out.println(message);
+//        System.out.println(faker.regexify("M|F"));
+//
+//        String name = faker.regexify("(+1-)?\\d{3}-\\d{3}-\\d{4}");
+//        System.out.println(name);
+//        System.out.println(name.matches("(Andriy|Serhii)"));
+
+//        String res = "";
+//        String str = "501GCCCA098911HH52";
+//        List<String> ar1, ar2;
+//        if (str.matches("^\\d.*")){
+//            ar1 = Arrays.asList(str.split("[A-Z]+"));
+//            ar2 = Arrays.asList(str.split("[0-9]+"));
+//        }
+
+        String str = "501GCCCA098911HH52";
+        System.out.println(str.matches("\\w+"));
+        String res = "";
+        //  \\w = [A-Za-z0-9_]
+        Matcher matcher = Pattern.compile("[A-Z]+|\\d+").matcher(str);
+        while (matcher.find()){
+            res += Arrays.stream(matcher.group().split("")).sorted().collect(Collectors.joining());
+        }
+        System.out.println(res);
+
+        Faker faker = new Faker();
+
+
+//String message = faker.regexify("(HI|HELLO|FUCK)");
+//        System.out.println(message);
+//        System.out.println(faker.regexify("M|F"));
+//
+//        String name = faker.regexify("(+1-)?\\d{3}-\\d{3}-\\d{4}");
+//        System.out.println(name);
+//        System.out.println(name.matches("(Andriy|Serhii)"));
+
+//        String res = "";
+//        String str = "501GCCCA098911HH52";
+//        List<String> ar1, ar2;
+//        if (str.matches("^\\d.*")){
+//            ar1 = Arrays.asList(str.split("[A-Z]+"));
+//            ar2 = Arrays.asList(str.split("[0-9]+"));
+//        }
+//
+//        String str = "501GCCCA098911HH52";
+//        System.out.println(str.matches("\\w+"));
+//        String res = "";
+//        //  \\w = [A-Za-z0-9_]
+//        Matcher matcher = Pattern.compile("[A-Z]+|\\d+").matcher(str);
+//        while (matcher.find()){
+//            res += Arrays.stream(matcher.group().split("")).sorted().collect(Collectors.joining());
+//        }
+//        System.out.println(res);
+//
+//        Faker faker = new Faker();
+//
+//
+////String message = faker.regexify("(HI|HELLO|FUCK)");
+////        System.out.println(message);
+////        System.out.println(faker.regexify("M|F"));
+////
+////        String name = faker.regexify("(+1-)?\\d{3}-\\d{3}-\\d{4}");
+////        System.out.println(name);
+////        System.out.println(name.matches("(Andriy|Serhii)"));
+//
+////        String res = "";
+////        String str = "501GCCCA098911HH52";
+////        List<String> ar1, ar2;
+////        if (str.matches("^\\d.*")){
+////            ar1 = Arrays.asList(str.split("[A-Z]+"));
+////            ar2 = Arrays.asList(str.split("[0-9]+"));
+////        }
+//
+//        String str = "501GCCCA098911HH52";
+//        System.out.println(str.matches("\\w+"));
+//        String res = "";
+//        //  \\w = [A-Za-z0-9_]
+//        Matcher matcher = Pattern.compile("[A-Z]+|\\d+").matcher(str);
+//        while (matcher.find()){
+//            res += Arrays.stream(matcher.group().split("")).sorted().collect(Collectors.joining());
+//        }
+//        System.out.println(res);
+//
+//        Faker faker = new Faker();
+//
+//
+////String message = faker.regexify("(HI|HELLO|FUCK)");
+////        System.out.println(message);
+////        System.out.println(faker.regexify("M|F"));
+////
+////        String name = faker.regexify("(+1-)?\\d{3}-\\d{3}-\\d{4}");
+////        System.out.println(name);
+////        System.out.println(name.matches("(Andriy|Serhii)"));
+//
+////        String res = "";
+////        String str = "501GCCCA098911HH52";
+////        List<String> ar1, ar2;
+////        if (str.matches("^\\d.*")){
+////            ar1 = Arrays.asList(str.split("[A-Z]+"));
+////            ar2 = Arrays.asList(str.split("[0-9]+"));
+////        }
+//
+//        String str = "501GCCCA098911HH52";
+//        System.out.println(str.matches("\\w+"));
+//        String res = "";
+//        //  \\w = [A-Za-z0-9_]
+//        Matcher matcher = Pattern.compile("[A-Z]+|\\d+").matcher(str);
+//        while (matcher.find()){
+//            res += Arrays.stream(matcher.group().split("")).sorted().collect(Collectors.joining());
+//        }
+//        System.out.println(res);
     }
 }

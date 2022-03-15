@@ -7,6 +7,6 @@ public class Hooks {
 
     @After
     public void close(){
-        Driver.closeDriver();
+       Driver.closeDriver();
     }
 }
