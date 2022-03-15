@@ -40,6 +40,8 @@ public class Test {
 //        if (str.matches("^\\d.*")){
 //            ar1 = Arrays.asList(str.split("[A-Z]+"));
 //            ar2 = Arrays.asList(str.split("[0-9]+"));
+        //GooglePage googlePage = new GooglePage();
+//LinkedInPage linkedInPage = new LinkedInPage();
 //        }
 
         String str = "501GCCCA098911HH52";
